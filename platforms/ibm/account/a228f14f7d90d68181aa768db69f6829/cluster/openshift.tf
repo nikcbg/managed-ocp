@@ -6,7 +6,7 @@ provider "ibm" {
   ibmcloud_api_key      = var.ibmcloud_api_key
 }
 
-resource "ibm_container_cluster" "cluster" {
+resource "ibm_container_cluster" "cluster123" {
   name              = "bcgov-ocp"
   datacenter        = "mon01"
   default_pool_size = 3
